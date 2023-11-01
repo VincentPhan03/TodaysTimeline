@@ -1,10 +1,15 @@
-.navbar-nav {
-    display: flex;
-    flex: .5;
-    justify-content: space-evenly;
+h1.title {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
 }
 
-.nav-item {
-    flex: .5; /* This will make each nav item take up equal space */
-    text-align:left; /* This will center the text in each nav item if desired */
+h2.sub-heading {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+h5.card-title {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+p.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
