@@ -21,7 +21,7 @@
         <!-- Logo and Header of website-->
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="/images/logo.jpg" alt="picture-of-logo">
+                <img src="/images/logo.jpg" alt="picture-of-logo" class="me-2">
                 <span class="navbar-brand mb-0 h1">Today's Timeline</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,8 +31,8 @@
             </button>
             <!--Creates collasped navbar when on smaller device -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-auto">
+                    <li class="nav-item me-5">
                         <!-- Account Link -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#account-modal">
@@ -74,7 +74,46 @@
                             </div>
                         </div>
                     </li>
+                    <li class="nav-item dropdown me-5">
+                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="usa-dropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            U.S.A
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="usa-dropdown">
+                            <li><a class="dropdown-item" href="usa-latest.html">Latest</a></li>
+                            <li><a class="dropdown-item" href="#">Economy</a></li>
+                            <li><a class="dropdown-item" href="#">Politics</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-5">
+                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="world-dropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            World
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="world-dropdown">
+                            <li><a class="dropdown-item" href="#">Breaking News</a></li>
+                            <li><a class="dropdown-item" href="#">Isreal-Hamas</a></li>
+                            <li><a class="dropdown-item" href="#">Environment</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown me-5">
+                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="technology-dropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Technology
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="technology-dropdown">
+                            <li><a class="dropdown-item" href="#">Breaking News</a></li>
+                            <li><a class="dropdown-item" href="#">Apple</a></li>
+                            <li><a class="dropdown-item" href="#">Microsoft</a></li>
+                        </ul>
+                    </li>
                 </ul>
+
                 <!-- Search box -->
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search">
@@ -86,55 +125,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 bg-white p-4 shadow rounded">
-
-                <!-- Navigation Bar -->
-                <div class="text-center mb-4 d-flex justify-content-between">
-                    <!-- USA -->
-                    <div class="dropdown">
-                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="usa-dropdown"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            U.S.A
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="usa-dropdown">
-                            <li><a class="dropdown-item" href="usa-latest.html">Latest</a></li>
-                            <li><a class="dropdown-item" href="#">Economy</a></li>
-                            <li><a class="dropdown-item" href="#">Politics</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- World -->
-                    <div class="dropdown">
-                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="world-dropdown"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            World
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="world-dropdown">
-                            <li><a class="dropdown-item" href="#">Breaking News</a></li>
-                            <li><a class="dropdown-item" href="#">Isreal-Hamas</a></li>
-                            <li><a class="dropdown-item" href="#">Environment</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Tech -->
-                    <div class="dropdown">
-                        <a class="btn btn btn-primary dropdown-toggle" href="#" role="button" id="technology-dropdown"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Technology
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="technology-dropdown">
-                            <li><a class="dropdown-item" href="#">Breaking News</a></li>
-                            <li><a class="dropdown-item" href="#">Apple</a></li>
-                            <li><a class="dropdown-item" href="#">Microsoft</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
                 <!-- Breaking News -->
-                <div class="text-center mb-4">
+                <div class="text-center md-4">
                     <h2>Breaking News</h2>
                     <hr>
                 </div>
