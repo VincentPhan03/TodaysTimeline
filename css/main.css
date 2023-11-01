@@ -1,0 +1,10 @@
+.navbar-nav {
+    display: flex;
+    flex: .5;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    flex: .5; /* This will make each nav item take up equal space */
+    text-align:left; /* This will center the text in each nav item if desired */
+}
